@@ -1,0 +1,81 @@
+body{
+    background-color: pink;
+    background-image: url(https://i.pinimg.com/originals/47/4f/71/474f713e21a965b381cc98a5a1fb2b46.jpg);
+    margin:0;
+    padding-top: 50px;
+    text-align: center;
+}
+#img1{
+       
+    border-radius: 100%;
+        margin-bottom: 0px;
+    margin-top: 10px;
+height: 400px;
+    width: 300px;
+    
+}
+#welcome{
+    background: linear-gradient(#daa7db 50%, #c2275a 100%);
+       width:100%;
+    display: table;
+    font-family:fantasy;
+    color:midnightblue;
+    font-size: 20;
+    z-index: 9;
+        
+}
+
+#bio{
+    background: linear-gradient(#8982d9 50%, #6bd16c 100%);
+    font-size: 30;
+    color: aqua;
+    }
+.line{
+    margin: auto;
+    height:10px;
+    width: 1000px;
+    background-color:black;
+    
+    
+    }
+.p1{
+    width:1000;
+    font-family: cursive;
+    font-size: 30; 
+    color: crimson;
+    
+}
+h1{
+    color:wheat;
+    font-size: 40px;
+}
+
+.h1tim{
+    font-family:ballet;
+font-size: 80px;    
+    color: ghostwhite;
+}
+
+.menu{
+    list-style: none;
+    font-family: cursive;
+    position:fixed;
+    top:20px;
+    right:10px;
+    z-index: 10;
+    cursor:pointer;
+    
+}
+
+.link{
+    float: left;
+    color:black;
+    padding: 10px;
+    font-family:fantasy;
+    font-size:30;
+    
+}
+.link:hover{
+    background-color:cornsilk;
+}
+
