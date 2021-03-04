@@ -31,7 +31,7 @@ height: 400px;
     color: aqua;
     }
 .line{
-    margin: auto;
+    margin: 8px auto;
     height:10px;
     width: 1000px;
     background-color:black;
@@ -99,3 +99,43 @@ html{
     scroll-behavior:smooth;
     
 }
+
+#app{
+    width: 100%;
+    height:800px;
+    background-color: aqua;
+    background-image: url(https://i.pinimg.com/originals/a3/9a/78/a39a781b209fb83bbbf630d1934f736a.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#game{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://wallpapercave.com/wp/wp2610810.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gmimg{
+    height: 400px;
+    width: 400px;
+    padding: 100px;
+    
+}
+
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+
+#chatbot{
+    height: 800px;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/1d/aa/7c/1daa7c95f1aa06d77411f712a4196972.gif)
+}
+
+
+
+
